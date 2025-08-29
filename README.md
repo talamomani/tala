@@ -1,4 +1,4 @@
-# rr_app
+# circolar_app
 
 A new Flutter project.
 
