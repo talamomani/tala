@@ -1,17 +1,19 @@
-name: weather_app
+name: note_app_28_9
 description: "A new Flutter project."
 publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.0
+  sdk: ^3.8.1
 
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^5.1.1
+  shared_preferences: ^2.0.15
+  easy_localization: ^3.0.8
   cupertino_icons: ^1.0.8
-  http: ^0.13.6
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +22,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/icons/
+    - assets/translate/
