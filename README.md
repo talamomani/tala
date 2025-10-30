@@ -1,4 +1,4 @@
-# note_app
+# dlny_app
 
 A new Flutter project.
 

@@ -1,29 +1,33 @@
-name: note_app_28_9
+name: dlny_app
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: 'none' 
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.8.1
+  sdk: ^3.9.0
 
 dependencies:
   flutter:
     sdk: flutter
-  carousel_slider: ^5.1.1
-  shared_preferences: ^2.0.15
-  easy_localization: ^3.0.8
+
+  
   cupertino_icons: ^1.0.8
+
+  # ✅ مكتبة التخزين المحلي
+  shared_preferences: ^2.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  
   flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
 
-  assets:
-    - assets/image/
-    - assets/icons/
-    - assets/translate/
+  
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
